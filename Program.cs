@@ -5,13 +5,19 @@ namespace test
 {
     class Program
     {
+        /// <summary>
+        /// just the main function
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello,world again!");
-            int a = 5;
-            int b = 10;
+            Console.WriteLine(Git(10,20));
+        }
+
+        int AnyFormule(int a,int b)
+        {
             int res = b / a;
-            Console.WriteLine(res);
+            return res;
         }
     }
 }
